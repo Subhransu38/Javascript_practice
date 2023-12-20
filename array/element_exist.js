@@ -11,12 +11,11 @@ const findElement = (arr, target) => {
 	return false;
 };
 
-console.log(findElement(arr, 10));
+console.log("findElement", findElement(arr, 10));
 
-// inbuilt function
+// inbuilt function (includes())
 
-console.log(arr.includes(4));
-console.log(arr.includes(10));
+console.log("includes", arr.includes(4));
 
 // How do you check if an element exists in an array and return its index
 
@@ -28,12 +27,10 @@ const findElementIndex = (arr, target) => {
 	}
 	return "Element Doesn't Exist";
 };
-console.log(findElementIndex(arr, 14));
+console.log("findElementIndex", findElementIndex(arr, 14));
 
-// inbuit function
+// inbuit function (indexOf(), lastIndexOf())
 
-console.log(arr.indexOf(14));
-console.log(arr.indexOf(4));
+console.log("indexOf", arr.indexOf(14));
 
-console.log(arr.lastIndexOf(4));
-console.log(arr.lastIndexOf(14));
+console.log("lastIndexOf", arr.lastIndexOf(4));
